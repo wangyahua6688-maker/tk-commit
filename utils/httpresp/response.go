@@ -2,8 +2,8 @@ package httpresp
 
 import (
 	"encoding/json"
+	"github.com/wangyahua6688-maker/tk-common/utils/codes"
 	"net/http"
-	"tk-common/utils/codes"
 )
 
 // Envelope 统一响应结构。

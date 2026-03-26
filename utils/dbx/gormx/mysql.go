@@ -9,11 +9,11 @@ import (
 	"time"
 
 	sqlmysql "github.com/go-sql-driver/mysql"
+	"github.com/wangyahua6688-maker/tk-common/utils/ctxx"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/schema"
-	"tk-common/utils/ctxx"
 )
 
 // DBConfig 定义数据库配置。
