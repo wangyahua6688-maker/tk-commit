@@ -24,7 +24,7 @@ import (
 	"time"
 
 	"github.com/go-redis/redis/v8"
-	"tk-common/utils/logx"
+	"github.com/wangyahua6688-maker/tk-common/utils/logx"
 )
 
 // ErrNilClient 表示 Redis 客户端未初始化。

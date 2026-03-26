@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"tk-common/utils/logx"
+	"github.com/wangyahua6688-maker/tk-common/utils/logx"
 
 	"github.com/go-redis/redis/v8"
 )

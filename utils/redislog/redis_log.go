@@ -3,7 +3,7 @@ package redislog
 import (
 	"strings"
 
-	commonlogx "tk-common/utils/logx"
+	commonlogx "github.com/wangyahua6688-maker/tk-common/utils/logx"
 )
 
 // WarnOp 输出 Redis 操作告警日志。
