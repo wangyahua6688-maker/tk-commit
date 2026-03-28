@@ -27,6 +27,8 @@ type WDrawRecord struct {
 	DrawResult string `gorm:"size:120;not null;default:''" json:"draw_result"`
 	// DrawLabels 开奖标签（与号码一一对应，格式示例：羊/土,蛇/金...）。
 	DrawLabels string `gorm:"size:255;not null;default:''" json:"draw_labels"`
+	// ColorLabels 号码对应波色标签（与号码一一对应，格式示例：绿波,蓝波,红波...）。
+	ColorLabels string `gorm:"size:255;not null;default:''" json:"color_labels"`
 	// ZodiacLabels 号码对应属相标签（与号码一一对应，格式示例：羊,蛇,马...）。
 	ZodiacLabels string `gorm:"size:255;not null;default:''" json:"zodiac_labels"`
 	// WuxingLabels 号码对应五行标签（与号码一一对应，格式示例：土,金,火...）。
